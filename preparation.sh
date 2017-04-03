@@ -3,5 +3,5 @@ export DISPLAY=:1
 google-chrome &
 pid=$!
 echo ${pid}
-sleep 5s
+sleep $1
 kill -9 ${pid}
