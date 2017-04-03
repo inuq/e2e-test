@@ -10,6 +10,7 @@ module.exports = {
       .waitForElementVisible("#srchbtn", 1000)
       .click("#srchbtn")
       .pause(1000)
+      .saveScreenshot("./reports/search-result.png")
       .assert.title("「nightwatch」の検索結果 - Yahoo!検索")
       .end();
   }
