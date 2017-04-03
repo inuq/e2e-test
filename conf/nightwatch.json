@@ -1,5 +1,5 @@
 {
-  "src_folders" : ["./ddt-tests"],
+  "src_folders" : ["./tests"],
   "output_folder" : "./reports",
   "custom_commands_path" : "",
   "page_objects_path" : "",
