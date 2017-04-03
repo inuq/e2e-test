@@ -1,4 +1,5 @@
 #!/bin/bash
+export DISPLAY=:1
 google-chrome &
 pid=$!
 echo ${pid}
