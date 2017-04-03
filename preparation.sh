@@ -1,5 +1,6 @@
 #!/bin/bash
 google-chrome &
 pid=$!
-sleep 3s
+echo ${pid}
+sleep 5s
 kill -9 ${pid}
