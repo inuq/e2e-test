@@ -42,6 +42,23 @@
       }
     },
 
+    "chrome" : {
+      "launch_url" : "http://localhost",
+      "selenium_host" : "127.0.0.1",
+      "selenium_port" : 4444,
+      "silent" : true,
+      "disable_colors": false,
+      "screenshots" : {
+        "enabled" : false,
+        "path" : ""
+      },
+      "desiredCapabilities" : {
+        "browserName" : "chrome",
+        "javascriptEnabled" : true,
+        "acceptSslCerts" : true
+      }
+    },
+
     "firefox" : {
       "launch_url" : "http://localhost",
       "selenium_host" : "127.0.0.1",
