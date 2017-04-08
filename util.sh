@@ -31,8 +31,9 @@ get_host_ip_address(){
     if [ "${HOST_OS}" == 'mac' ] ; then
         HOST_IP_ADRESS=`nslookup ${HOST_IP_ADRESS} | awk 'NR==1 {print $2}'`
     fi
-    echo "Docker Host IP Address = ¥"${HOST_IP_ADRESS}¥""
+    echo "Docker Host IP Address = '${HOST_IP_ADRESS}'"
 }
+
 #######################################
 # Check the options
 # Globals:
