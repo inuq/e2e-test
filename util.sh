@@ -27,7 +27,7 @@ string_substitution(){
 #   None
 #######################################
 get_host_ip_address(){
-    HOST_IP_ADRESS=`ip route | awk 'NR==1 {print $3}'`
+    HOST_IP_ADRESS=`/usr/sbin/ip route | awk 'NR==1 {print $3}'`
     if [ "${HOST_OS}" == 'mac' ] ; then
         HOST_IP_ADRESS=`nslookup ${HOST_IP_ADRESS} | awk 'NR==1 {print $2}'`
     fi
