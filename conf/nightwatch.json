@@ -76,6 +76,40 @@
       }
     },
 
+    "grid-chrome" : {
+      "launch_url" : "http://GRID_HOST",
+      "selenium_host" : "GRID_HOST",
+      "selenium_port" : 4444,
+      "silent" : true,
+      "disable_colors": false,
+      "screenshots" : {
+        "enabled" : false,
+        "path" : ""
+      },
+      "desiredCapabilities" : {
+        "browserName" : "chrome",
+        "javascriptEnabled" : true,
+        "acceptSslCerts" : true
+      }
+    },
+
+    "grid-firefox" : {
+      "launch_url" : "http://GRID_HOST",
+      "selenium_host" : "GRID_HOST",
+      "selenium_port" : 4444,
+      "silent" : true,
+      "disable_colors": false,
+      "screenshots" : {
+        "enabled" : false,
+        "path" : ""
+      },
+      "desiredCapabilities" : {
+        "browserName" : "firefox",
+        "javascriptEnabled" : true,
+        "acceptSslCerts" : true
+      }
+    },
+
     "saucelabs" : {
       "selenium_host" : "ondemand.saucelabs.com",
       "selenium_port" : 80,
